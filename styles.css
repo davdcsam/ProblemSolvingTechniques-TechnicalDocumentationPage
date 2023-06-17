@@ -37,13 +37,13 @@ body {
 }
 
 #navbar {
-    background-color: #211e1e;
+    background-color: var(--secundary-color-palet);
     color: var(--contrast-color-palet);
     position: fixed;
     left: 0;
     top: 0;
     width: 20%;
-    height: 100%;
+    height: 100vh;
     float: left;
     display: grid;
     font-size: var(--font-size-small);
